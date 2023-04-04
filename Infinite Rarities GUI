@@ -1,0 +1,985 @@
+--SPFarmFast
+spawn(function()
+    while SPFarmFast do task.wait() 
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.38418579e-07, -0.125, 40, 1, 0, 0, 0, 1, 0, 0, 0, 1) --roll
+    wait(3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 39.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --sacrifice
+    wait(0.5)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 27.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --luck
+    wait(0.3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 19.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --roll speed
+    wait(0.3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 11.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --bulk roll
+    wait(0.3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 3.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --SPM
+    wait(0.3)
+    end
+end)
+
+--SPFarmSlow
+spawn(function()
+    while SPFarmSlow do task.wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.38418579e-07, -0.125, 40, 1, 0, 0, 0, 1, 0, 0, 0, 1) --roll
+        wait(7)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 39.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --sacrifice
+        wait(0.1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 27.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --luck
+        wait(0.6)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 19.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --roll speed
+        wait(0.3)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 11.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --bulk roll
+        wait(0.3)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 3.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --SPM
+        wait(0.3)
+    end
+end)
+
+--PPFarm    
+spawn(function()
+    while PPFarm do task.wait() 
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.38418579e-07, -0.125, 40, 1, 0, 0, 0, 1, 0, 0, 0, 1) --roll
+    wait(3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, -40.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --prestige
+    wait(0.5)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(11.5, -0.125, -40.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --PPM
+    wait(0.3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(27.5, -0.125, -40.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --luck
+    wait(0.3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(19.5, -0.125, -40.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --SPM
+    wait(0.3)
+    end
+end)
+
+--APFarm
+spawn(function()
+    while APFarm do task.wait()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.38418579e-07, -0.125, 40, 1, 0, 0, 0, 1, 0, 0, 0, 1) --roll
+    wait(6)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-40.5, -0.125, -40.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --ascension
+    wait(0.5)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-92.75, 13.125, 6, 1, 0, 0, 0, 1, 0, 0, 0, 1) --APM
+    wait(0.3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-92.75, 13.125, -18, 1, 0, 0, 0, 1, 0, 0, 0, 1) --luck
+    wait(0.3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-92.75, 13.125, -2, 1, 0, 0, 0, 1, 0, 0, 0, 1) --PPM
+    wait(0.3)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-92.75, 13.125, -10, 1, 0, 0, 0, 1, 0, 0, 0, 1) --SPM
+    wait(0.3)
+    end
+end)
+
+--OPPPFarm
+spawn(function()
+    while opfarmmaybe do task.wait()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.38418579e-07, -0.125, 40, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        task.wait(0.1)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, -40.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        task.wait(0.1)
+    end
+end)
+
+
+--UiLib
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+    Name = "Infinite Rarities GUI | Shadow Hub",
+    LoadingTitle = "Infinite Rarities GUI | Shadow Hub",
+    LoadingSubtitle = "D4rk#0001 | janis#6697",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = InfRarities, -- Create a custom folder for your hub/game
+       FileName = "Cfg"
+    },
+    Discord = {
+       Enabled = false,
+       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = true, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "Infinite Rarities GUI",
+       Subtitle = "D4rk#0001 | janis#6697",
+       Note = "key: kys",
+       FileName = "IFK",
+       SaveKey = true,
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = "kys"
+    }
+ })
+
+   local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
+   local Tab2 = Window:CreateTab("Teleports", 4483362458) -- Title, Image
+   local Tab3 = Window:CreateTab("Other", 4483362458) -- Title, Image
+   local Section = Tab:CreateSection("D4rk#0001 | janis#6697")
+   local Section = Tab2:CreateSection("D4rk#0001 | janis#6697")
+   local Section = Tab3:CreateSection("D4rk#0001 | janis#6697")
+
+   local Toggle = Tab:CreateToggle({
+    Name = "Sacrifice Farm Fast",
+    CurrentValue = false,
+    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(Value)
+    -- The function that takes place when the toggle is pressed
+    -- The variable (Value) is a boolean on whether the toggle is true or false
+    end,
+ })
+
+ local Toggle = Tab:CreateToggle({
+    Name = "Sacrifice Farm Slow",
+    CurrentValue = false,
+    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(Value)
+    -- The function that takes place when the toggle is pressed
+    -- The variable (Value) is a boolean on whether the toggle is true or false
+    end,
+ })
+
+ local Toggle = Tab:CreateToggle({
+    Name = "Prestige Farm",
+    CurrentValue = false,
+    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(Value)
+    -- The function that takes place when the toggle is pressed
+    -- The variable (Value) is a boolean on whether the toggle is true or false
+    end,
+ })
+
+ local Toggle = Tab:CreateToggle({
+    Name = "Ascension Farm",
+    CurrentValue = false,
+    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(Value)
+    -- The function that takes place when the toggle is pressed
+    -- The variable (Value) is a boolean on whether the toggle is true or false
+    end,
+ })
+
+ local Button = Tab2:CreateButton({
+    Name = "Spawn",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 5.353200704, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end,
+ })
+
+
+ local Button = Tab2:CreateButton({
+    Name = "Rarity Roll",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.38418579e-07, -0.125, 40, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end,
+ })
+
+ local Section = Tab2:CreateSection("PVP")
+
+ local Button = Tab2:CreateButton({
+    Name = "PVP Area (Safe Zone)",
+    Callback = function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(60.875, 5, -9977.125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end,
+ })
+
+ local Button = Tab2:CreateButton({
+    Name = "PVP Area",
+    Callback = function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-472.25, 5.99998474, -10460.125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end,
+ })
+
+ local Section = Tab2:CreateSection("Buttons")
+
+ local Button = Tab2:CreateButton({
+    Name = "Sacrifice ",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 39.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end,
+ })
+
+ local Button = Tab2:CreateButton({
+    Name = "Prestige",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, -40.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end,
+ })
+
+ local Button = Tab2:CreateButton({
+    Name = "Ascent",
+    Callback = function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-40.5, -0.125, -40.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end,
+ })
+
+ local Button = Tab2:CreateButton({
+    Name = "Trancent (requires expansion)",
+    Callback = function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-144.75, 13.125, 18, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end,
+ })
+
+ local Slider = Tab3:CreateSlider({
+    Name = "WalkSpeed",
+    Range = {16, 100},
+    Increment = 1,
+    Suffix = "Speed",
+    CurrentValue = 16,
+    Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end,
+ })
+
+ local Slider = Tab3:CreateSlider({
+    Name = "JumpPower",
+    Range = {50, 500},
+    Increment = 10,
+    Suffix = "Jump",
+    CurrentValue = 50,
+    Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end,
+ })
+
+ local Section = Tab3:CreateSection("Other")
+
+ local Button = Tab3:CreateButton({
+    Name = "Shaders",
+    Callback = function()
+        Rayfield:Notify({
+            Title = "Shaders",
+            Content = "Shaders Added!",
+            Duration = 3,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+        local find1 = game.Lighting:FindFirstChildWhichIsA("BloomEffect") if find1 then
+            game.Lighting:FindFirstChildWhichIsA("BloomEffect"):Destroy()
+        end
+        local find2 = game.Lighting:FindFirstChildWhichIsA("SunRaysEffect") if find2 then
+            game.Lighting:FindFirstChildWhichIsA("SunRaysEffect"):Destroy()
+        end
+        local find3 = game.Lighting:FindFirstChildWhichIsA("ColorCorrectionEffect") if find3 then
+            game.Lighting:FindFirstChildWhichIsA("ColorCorrectionEffect"):Destroy()
+        end
+        local find4 = game.Lighting:FindFirstChildWhichIsA("BlurEffect") if find4 then
+            game.Lighting:FindFirstChildWhichIsA("BlurEffect"):Destroy()
+        end
+        local find5 = game.Lighting:FindFirstChildWhichIsA("Sky") if find5 then
+            game.Lighting:FindFirstChildWhichIsA("Sky"):Destroy()
+        end
+        local blem = Instance.new("BloomEffect",game.Lighting)
+        local sanrey = Instance.new("SunRaysEffect",game.Lighting)
+        local color = Instance.new("ColorCorrectionEffect",game.Lighting)
+        local blor = Instance.new("BlurEffect",game.Lighting)
+        Instance.new("Sky",game.Lighting)
+        game.Lighting.ExposureCompensation = 0.34
+        game.Lighting.ShadowSoftness = 1
+        game.Lighting.EnvironmentDiffuseScale = 0.343
+        game.Lighting.EnvironmentSpecularScale = 1
+        game.Lighting.Brightness = 2
+        game.Lighting.ColorShift_Top = Color3.fromRGB(118,117,108)
+        game.Lighting.OutdoorAmbient = Color3.fromRGB(141,141,141)
+        game.Lighting.GeographicLatitude = 100
+        game.Lighting.Ambient = Color3.fromRGB(112,112,112)
+        blem.Intensity = 0.5
+        blem.Size = 22
+        blem.Threshold = 1.5
+        sanrey.Intensity = 0.117
+        sanrey.Spread = 1
+        blor.Size = 2
+        color.Contrast = 0.3
+        color.Saturation = 0.2
+        color.TintColor = Color3.fromRGB(255,252,224)
+    end,
+ })
+
+ local Button = Tab3:CreateButton({
+    Name = "Ultra Anti-Lag",
+    Callback = function()
+        repeat wait() until game:IsLoaded()
+
+        local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+        local g = game
+        local w = g.Workspace
+        local l = g.Lighting
+        local t = w.Terrain
+        sethiddenproperty(l,"Technology",2)
+        sethiddenproperty(t,"Decoration",false)
+        t.WaterWaveSize = 0
+        t.WaterWaveSpeed = 0
+        t.WaterReflectance = 0
+        t.WaterTransparency = 0
+        l.GlobalShadows = 0
+        l.FogEnd = 9e9
+        l.Brightness = 0
+        settings().Rendering.QualityLevel = "Level01"
+        for i, v in pairs(w:GetDescendants()) do
+            if v:IsA("BasePart") and not v:IsA("MeshPart") then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+            elseif (v:IsA("Decal") or v:IsA("Texture")) and decalsyeeted then
+                v.Transparency = 1
+            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                v.Lifetime = NumberRange.new(0)
+            elseif v:IsA("Explosion") then
+                v.BlastPressure = 1
+                v.BlastRadius = 1
+            elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
+                v.Enabled = false
+            elseif v:IsA("MeshPart") and decalsyeeted then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+                v.TextureID = 10385902758728957
+            elseif v:IsA("SpecialMesh") and decalsyeeted  then
+                v.TextureId=0
+            elseif v:IsA("ShirtGraphic") and decalsyeeted then
+                v.Graphic=0
+            elseif (v:IsA("Shirt") or v:IsA("Pants")) and decalsyeeted then
+                v[v.ClassName.."Template"]=0
+            end
+        end
+        for i = 1,#l:GetChildren() do
+            e=l:GetChildren()[i]
+            if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+                e.Enabled = false
+            end
+        end
+        w.DescendantAdded:Connect(function(v)
+            wait()--prevent errors and shit
+           if v:IsA("BasePart") and not v:IsA("MeshPart") then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+            elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+                v.Transparency = 1
+            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                v.Lifetime = NumberRange.new(0)
+            elseif v:IsA("Explosion") then
+                v.BlastPressure = 1
+                v.BlastRadius = 1
+            elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
+                v.Enabled = false
+            elseif v:IsA("MeshPart") and decalsyeeted then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+                v.TextureID = 10385902758728957
+            elseif v:IsA("SpecialMesh") and decalsyeeted then
+                v.TextureId=0
+            elseif v:IsA("ShirtGraphic") and decalsyeeted then
+                v.ShirtGraphic=0
+            elseif (v:IsA("Shirt") or v:IsA("Pants")) and decalsyeeted then
+                v[v.ClassName.."Template"]=0
+            end
+        end)
+    end,
+ })
+
+   local Button = Tab3:CreateButton({
+    Name = "Name Hider",
+    Callback = function()
+        local new_name = "ShadowHub" -- I'm not Pepsi. ^_^
+        local new_id = 104867 -- I'm not 26346. ^_^
+        local clear_avatar = false -- So no one can reverse search by your outfit
+        local flush_body_colors = false -- So no one can reverse search by your bodycolors
+        local rename_instances = false -- Rename any instances that holds your name. (Not recomended unless you can see your name above your character)
+        local change_id = false -- Change your player ID (not visually)
+        local deep_scan = true -- Can get a bit laggy if there is a mass wave of new instances
+        local filter_httpget = { -- Didn't seem like this would be helpful, but requested.
+            enabled = true, -- Turn on
+            result = true, -- Filter the results of the request
+            request = true -- Filter the url before requesting
+        }
+        Rayfield:Notify({
+            Title = "Name Hider",
+            Content = "Name Hidden!",
+            Duration = 3,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+        local Players = assert(assert(game, "game missing?"):FindService("Players") or game:GetService("Players"), "Players missing?")
+        local LocalPlayer = assert(Players.LocalPlayer, "LocalPlayer missing?")
+        local CoreGui = game:FindService("CoreGui") or game:GetService("CoreGui")
+        local PlayerGui = assert(LocalPlayer:FindFirstChild("PlayerGui"), "PlayerGui mising?")
+        local RunService = assert(game:FindService("RunService") or game:GetService("RunService"), "RunService missing?")
+        local replaces_str = {
+            Players.LocalPlayer.Name
+        }
+        local replaces_num = {
+            tostring(Players.LocalPlayer.UserId)
+        }
+        new_name, new_id = tostring(new_name), tostring(new_id)
+        local function casepatt(pattern)
+            return string.gsub(pattern, "(%%?)(.)", function(percent, letter)
+                if percent ~= "" or not string.match(letter, "%a") then
+                    return percent .. letter
+                else
+                    return string.format("[%s%s]", string.lower(letter), string.upper(letter))
+                end
+            end)
+        end
+        function replace(item, fast)
+            for replacewith, data in pairs({
+                [new_name] = replaces_str,
+                [new_id] = replaces_num
+            }) do
+                if not fast then
+                    RunService.RenderStepped:Wait()
+                end
+                for _, v in pairs(data) do
+                    if not fast then
+                        RunService.RenderStepped:Wait()
+                    end
+                    for _, t in pairs({
+                        "Text",
+                        "Message",
+                        "ToolTip",
+                        "Value"
+                    }) do
+                        pcall(function()
+                            if string.find(item[t], v, nil, true) then
+                                item[t] = string.gsub(item[t], v, replacewith)
+                            elseif string.find(item[t], string.lower(v), nil, true) then
+                                item[t] = string.gsub(item[v], string.lower(v), string.lower(replacewith))
+                            elseif string.find(item[t], string.upper(v), nil, true) then
+                                item[t] = string.gsub(item[v], string.upper(v), string.upper(replacewith))
+                            elseif string.find(string.lower(item[t]), string.lower(v), nil, true) then
+                                item[t] = string.gsub(item[v], casepatt(v), replacewith)
+                            end
+                        end)
+                        if not fast then
+                            RunService.RenderStepped:Wait()
+                        end
+                    end
+                    if not fast then
+                        RunService.RenderStepped:Wait()
+                    end
+                    if rename_instances then
+                        pcall(function()
+                            if string.find(item.Name, v, nil, true) then
+                                item.Name = string.gsub(item.Name, v, replacewith)
+                            elseif string.find(item.Name, string.lower(v), nil, true) then
+                                item.Name = string.gsub(item.Name, string.lower(v), string.lower(replacewith))
+                            elseif string.find(item.Name, string.upper(v), nil, true) then
+                                item.Name = string.gsub(item.Name, string.lower(v), string.upper(replacewith))
+                            elseif string.find(string.lower(item.Name), string.lower(v), nil, true) then
+                                item.Name = string.gsub(item.Name, casepatt(v), replacewith)
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+        shared.rep = replace
+        local function scan_and_replace(fast)
+            local scan_que = {
+                CoreGui:GetDescendants(),
+                PlayerGui:GetDescendants(),
+                workspace:GetDescendants()
+            }
+            local last_break = 0
+            for _, items in pairs(scan_que) do
+                if not fast then
+                    RunService.RenderStepped:Wait()
+                end
+                for _, gui in pairs(assert(type(items) == "table" and items, "scan_que does not hold a table")) do
+                    last_break = 1 + last_break
+                    if last_break >= 6000 then
+                        RunService.RenderStepped:Wait()
+                        last_break = 0
+                    end
+                    if not fast then
+                        RunService.RenderStepped:Wait()
+                    end
+                    replace(gui, fast)
+                end
+            end
+            for _, obj in pairs(workspace:GetDescendants()) do
+                if not fast then
+                    RunService.RenderStepped:Wait()
+                end
+                replace(obj)
+            end
+        end
+        function fixchar(Character)
+            if not Character then
+                return 
+            end
+            wait(0.2)
+            RunService.RenderStepped:Wait()
+            if rename_instances then
+                Character.Name = new_name
+            end
+            if clear_avatar then
+                Players.LocalPlayer:ClearCharacterAppearance()
+            end
+            wait(0.1)
+            if flush_body_colors then
+                local bc = Character:FindFirstChildOfClass("BodyColors")
+                if bc then
+                    for _, c in pairs({
+                        "HeadColor",
+                        "LeftArmColor",
+                        "LeftLegColor",
+                        "RightArmColor",
+                        "RightLegColor",
+                        "TorsoColor"
+                    }) do
+                        bc[c] = (typeof(bc[c]) == "BrickColor" and BrickColor.Random()) or bc[c]
+                    end
+                else
+                    local h = Character:FindFirstChildOfClass("Humanoid")
+                    if h then
+                        for _, limb in pairs(Character:GetChildren()) do
+                            if limb:IsA("BasePart") and pcall(h.GetLimb, h, limb) then
+                                limb.BrickColor = BrickColor.Random()
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        fixchar(Players.LocalPlayer.Character)
+        Players.LocalPlayer.CharacterAppearanceLoaded:Connect(fixchar)
+        Players.LocalPlayer.CharacterAdded:Connect(fixchar)
+        if deep_scan then
+            game.ItemChanged:Connect(function(obj, property)
+                if not rename_instances and "Name" == property then
+                    return 
+                end
+                local s, v = pcall(function()
+                    return obj[property]
+                end)
+                if s then
+                    if "string" == type(v) then
+                        for _, c in pairs(replaces_str) do
+                            RunService.RenderStepped:Wait()
+                            if string.find(obj[property], c, nil, true) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), c, new_name)
+                            elseif string.find(obj[property], string.lower(c)) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), string.lower(c), string.lower(new_name))
+                            elseif string.find(obj[property], string.upper(c), nil, true) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), string.upper(c), string.upper(new_name))
+                            elseif string.find(string.upper(obj[property]), string.upper(c), nil, true) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), casepatt(c), new_name)
+                            end
+                        end
+                        RunService.RenderStepped:Wait()
+                        for _, c in pairs(replaces_num) do
+                            RunService.RenderStepped:Wait()
+                            if string.find(obj[property], new_id) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), c, new_id)
+                            end
+                        end
+                    elseif "number" == type(v) then
+                        v = tostring(obj[property] or v)
+                        for _, c in pairs(replaces_num) do
+                            RunService.RenderStepped:Wait()
+                            if string.find(v, c) then
+                                obj[property] = tonumber(tonumber(string.gsub(v, c, new_id) or obj[property]) or obj[property])
+                            end
+                        end
+                    end
+                end
+            end)
+            CoreGui.DescendantAdded:Connect(replace)
+            PlayerGui.DescendantAdded:Connect(replace)
+        end
+        local function filterstr(s)
+            for _, data in pairs({
+                [new_name] = replaces_str,
+                [new_id] = replaces_num
+            }) do
+                for c, v in pairs(data) do
+                    if string.find(s, v, nil, true) then
+                        s = string.gsub(s, v, c)
+                    elseif string.find(s, string.lower(v), nil, true) then
+                        s = string.gsub(s, string.lower(v), string.lower(c))
+                    elseif string.find(s, string.upper(v), nil, true) then
+                        s = string.gsub(s, string.upper(v), string.upper(c))
+                    elseif string.find(string.upper(s), string.upper(v), nil, true) then
+                        s = string.gsub(s, casepatt(v), c)
+                    end
+                end
+            end
+            return s
+        end
+        if filter_httpget.enabled and type(hookfunc or hookfunction or detour_function) == "function" then
+            local hget
+            hget = assert(hookfunction or hookfunc or detour_function, "Hook function required for filter_httpget")(assert(game.HttpGet, "HttpGet required for filter_httpget"), function(shelf, u, ...)
+                if filter_httpget.request then
+                    local x, e = pcall(filterstr, u)
+                    if x and e then
+                        u = e
+                    end
+                end
+                if filter_httpget.result then
+                    local result = hget(shelf, u, ...)
+                    local x, e = pcall(filterstr, result)
+                    if x and e then
+                        return e
+                    end
+                end
+                return hget(shelf, u, ...)
+            end)
+        end
+        scan_and_replace(true)
+        while wait(1) do
+            if rename_instances then
+                Players.LocalPlayer.Name = new_name
+                if Players.LocalPlayer.Character then
+                    Players.LocalPlayer.Character.Name = new_name
+                end
+            end
+            if change_id then
+                Players.LocalPlayer.UserId = tonumber(tonumber(new_id or 1) or 1)
+            end
+            scan_and_replace()
+        end
+    end,
+ })
+
+ local Button = Tab3:CreateButton({
+    Name = "Delete Outfit and Hide Name",
+    Callback = function()
+        print("Name Hidden")
+        print("Avatar Hidden")
+        local new_name = "ShadowHub" -- I'm not Pepsi. ^_^
+        local new_id = 104867 -- I'm not 26346. ^_^
+        local clear_avatar = true -- So no one can reverse search by your outfit
+        local flush_body_colors = false -- So no one can reverse search by your bodycolors
+        local rename_instances = false -- Rename any instances that holds your name. (Not recomended unless you can see your name above your character)
+        local change_id = false -- Change your player ID (not visually)
+        local deep_scan = true -- Can get a bit laggy if there is a mass wave of new instances
+        local filter_httpget = { -- Didn't seem like this would be helpful, but requested.
+            enabled = true, -- Turn on
+            result = true, -- Filter the results of the request
+            request = true -- Filter the url before requesting
+        }
+
+        Rayfield:Notify({
+            Title = "Name Hider",
+            Content = "Name Hidden!",
+            Duration = 3,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+
+         Rayfield:Notify({
+            Title = "Avatar Hider",
+            Content = "Avatar Hidden!",
+            Duration = 3,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay!",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+        
+        
+        local Players = assert(assert(game, "game missing?"):FindService("Players") or game:GetService("Players"), "Players missing?")
+        local LocalPlayer = assert(Players.LocalPlayer, "LocalPlayer missing?")
+        local CoreGui = game:FindService("CoreGui") or game:GetService("CoreGui")
+        local PlayerGui = assert(LocalPlayer:FindFirstChild("PlayerGui"), "PlayerGui mising?")
+        local RunService = assert(game:FindService("RunService") or game:GetService("RunService"), "RunService missing?")
+        local replaces_str = {
+            Players.LocalPlayer.Name
+        }
+        local replaces_num = {
+            tostring(Players.LocalPlayer.UserId)
+        }
+        new_name, new_id = tostring(new_name), tostring(new_id)
+        local function casepatt(pattern)
+            return string.gsub(pattern, "(%%?)(.)", function(percent, letter)
+                if percent ~= "" or not string.match(letter, "%a") then
+                    return percent .. letter
+                else
+                    return string.format("[%s%s]", string.lower(letter), string.upper(letter))
+                end
+            end)
+        end
+        function replace(item, fast)
+            for replacewith, data in pairs({
+                [new_name] = replaces_str,
+                [new_id] = replaces_num
+            }) do
+                if not fast then
+                    RunService.RenderStepped:Wait()
+                end
+                for _, v in pairs(data) do
+                    if not fast then
+                        RunService.RenderStepped:Wait()
+                    end
+                    for _, t in pairs({
+                        "Text",
+                        "Message",
+                        "ToolTip",
+                        "Value"
+                    }) do
+                        pcall(function()
+                            if string.find(item[t], v, nil, true) then
+                                item[t] = string.gsub(item[t], v, replacewith)
+                            elseif string.find(item[t], string.lower(v), nil, true) then
+                                item[t] = string.gsub(item[v], string.lower(v), string.lower(replacewith))
+                            elseif string.find(item[t], string.upper(v), nil, true) then
+                                item[t] = string.gsub(item[v], string.upper(v), string.upper(replacewith))
+                            elseif string.find(string.lower(item[t]), string.lower(v), nil, true) then
+                                item[t] = string.gsub(item[v], casepatt(v), replacewith)
+                            end
+                        end)
+                        if not fast then
+                            RunService.RenderStepped:Wait()
+                        end
+                    end
+                    if not fast then
+                        RunService.RenderStepped:Wait()
+                    end
+                    if rename_instances then
+                        pcall(function()
+                            if string.find(item.Name, v, nil, true) then
+                                item.Name = string.gsub(item.Name, v, replacewith)
+                            elseif string.find(item.Name, string.lower(v), nil, true) then
+                                item.Name = string.gsub(item.Name, string.lower(v), string.lower(replacewith))
+                            elseif string.find(item.Name, string.upper(v), nil, true) then
+                                item.Name = string.gsub(item.Name, string.lower(v), string.upper(replacewith))
+                            elseif string.find(string.lower(item.Name), string.lower(v), nil, true) then
+                                item.Name = string.gsub(item.Name, casepatt(v), replacewith)
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+        shared.rep = replace
+        local function scan_and_replace(fast)
+            local scan_que = {
+                CoreGui:GetDescendants(),
+                PlayerGui:GetDescendants(),
+                workspace:GetDescendants()
+            }
+            local last_break = 0
+            for _, items in pairs(scan_que) do
+                if not fast then
+                    RunService.RenderStepped:Wait()
+                end
+                for _, gui in pairs(assert(type(items) == "table" and items, "scan_que does not hold a table")) do
+                    last_break = 1 + last_break
+                    if last_break >= 6000 then
+                        RunService.RenderStepped:Wait()
+                        last_break = 0
+                    end
+                    if not fast then
+                        RunService.RenderStepped:Wait()
+                    end
+                    replace(gui, fast)
+                end
+            end
+            for _, obj in pairs(workspace:GetDescendants()) do
+                if not fast then
+                    RunService.RenderStepped:Wait()
+                end
+                replace(obj)
+            end
+        end
+        function fixchar(Character)
+            if not Character then
+                return 
+            end
+            wait(0.2)
+            RunService.RenderStepped:Wait()
+            if rename_instances then
+                Character.Name = new_name
+            end
+            if clear_avatar then
+                Players.LocalPlayer:ClearCharacterAppearance()
+            end
+            wait(0.1)
+            if flush_body_colors then
+                local bc = Character:FindFirstChildOfClass("BodyColors")
+                if bc then
+                    for _, c in pairs({
+                        "HeadColor",
+                        "LeftArmColor",
+                        "LeftLegColor",
+                        "RightArmColor",
+                        "RightLegColor",
+                        "TorsoColor"
+                    }) do
+                        bc[c] = (typeof(bc[c]) == "BrickColor" and BrickColor.Random()) or bc[c]
+                    end
+                else
+                    local h = Character:FindFirstChildOfClass("Humanoid")
+                    if h then
+                        for _, limb in pairs(Character:GetChildren()) do
+                            if limb:IsA("BasePart") and pcall(h.GetLimb, h, limb) then
+                                limb.BrickColor = BrickColor.Random()
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        fixchar(Players.LocalPlayer.Character)
+        Players.LocalPlayer.CharacterAppearanceLoaded:Connect(fixchar)
+        Players.LocalPlayer.CharacterAdded:Connect(fixchar)
+        if deep_scan then
+            game.ItemChanged:Connect(function(obj, property)
+                if not rename_instances and "Name" == property then
+                    return 
+                end
+                local s, v = pcall(function()
+                    return obj[property]
+                end)
+                if s then
+                    if "string" == type(v) then
+                        for _, c in pairs(replaces_str) do
+                            RunService.RenderStepped:Wait()
+                            if string.find(obj[property], c, nil, true) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), c, new_name)
+                            elseif string.find(obj[property], string.lower(c)) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), string.lower(c), string.lower(new_name))
+                            elseif string.find(obj[property], string.upper(c), nil, true) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), string.upper(c), string.upper(new_name))
+                            elseif string.find(string.upper(obj[property]), string.upper(c), nil, true) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), casepatt(c), new_name)
+                            end
+                        end
+                        RunService.RenderStepped:Wait()
+                        for _, c in pairs(replaces_num) do
+                            RunService.RenderStepped:Wait()
+                            if string.find(obj[property], new_id) then
+                                obj[property] = string.gsub(tostring(obj[property] or v), c, new_id)
+                            end
+                        end
+                    elseif "number" == type(v) then
+                        v = tostring(obj[property] or v)
+                        for _, c in pairs(replaces_num) do
+                            RunService.RenderStepped:Wait()
+                            if string.find(v, c) then
+                                obj[property] = tonumber(tonumber(string.gsub(v, c, new_id) or obj[property]) or obj[property])
+                            end
+                        end
+                    end
+                end
+            end)
+            CoreGui.DescendantAdded:Connect(replace)
+            PlayerGui.DescendantAdded:Connect(replace)
+        end
+        local function filterstr(s)
+            for _, data in pairs({
+                [new_name] = replaces_str,
+                [new_id] = replaces_num
+            }) do
+                for c, v in pairs(data) do
+                    if string.find(s, v, nil, true) then
+                        s = string.gsub(s, v, c)
+                    elseif string.find(s, string.lower(v), nil, true) then
+                        s = string.gsub(s, string.lower(v), string.lower(c))
+                    elseif string.find(s, string.upper(v), nil, true) then
+                        s = string.gsub(s, string.upper(v), string.upper(c))
+                    elseif string.find(string.upper(s), string.upper(v), nil, true) then
+                        s = string.gsub(s, casepatt(v), c)
+                    end
+                end
+            end
+            return s
+        end
+        if filter_httpget.enabled and type(hookfunc or hookfunction or detour_function) == "function" then
+            local hget
+            hget = assert(hookfunction or hookfunc or detour_function, "Hook function required for filter_httpget")(assert(game.HttpGet, "HttpGet required for filter_httpget"), function(shelf, u, ...)
+                if filter_httpget.request then
+                    local x, e = pcall(filterstr, u)
+                    if x and e then
+                        u = e
+                    end
+                end
+                if filter_httpget.result then
+                    local result = hget(shelf, u, ...)
+                    local x, e = pcall(filterstr, result)
+                    if x and e then
+                        return e
+                    end
+                end
+                return hget(shelf, u, ...)
+            end)
+        end
+        scan_and_replace(true)
+        while wait(1) do
+            if rename_instances then
+                Players.LocalPlayer.Name = new_name
+                if Players.LocalPlayer.Character then
+                    Players.LocalPlayer.Character.Name = new_name
+                end
+            end
+            if change_id then
+                Players.LocalPlayer.UserId = tonumber(tonumber(new_id or 1) or 1)
+            end
+            scan_and_replace()
+        end
+    end,
+ })
+
+ local Section = Tab3:CreateSection("DELETE GUI (DOES NOT TURN IT OFF FOR YOU)")
+
+local Button = Tab3:CreateButton({
+   Name = "Destroy UI",
+   Callback = function()
+    Rayfield:Destroy()
+   end,
+})
+
+local Players = game:FindService("Players")
+
+require(game:GetService("Chat"):WaitForChild("ClientChatModules").ChatSettings).PlayerDisplayNamesEnabled = false
+
+local function rename(character,name)
+    repeat task.wait() until character:FindFirstChildWhichIsA("Humanoid")
+    character:FindFirstChildWhichIsA("Humanoid").DisplayName = name
+end
+
+for i,v in next, Players:GetPlayers() do
+    if v.Character then
+        v.DisplayName = v.Name
+        rename(v.Character,v.Name)
+    end
+    v.CharacterAdded:Connect(function(char)
+        rename(char,v.Name)
+    end)
+end
+
+Players.PlayerAdded:Connect(function(plr)
+    plr.DisplayName = plr.Name
+    plr.CharacterAdded:Connect(function(char)
+        rename(char,plr.Name)
+    end)
+end)
+
+for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do
+    v:Disable()
+end
+print("Anti-Idle: Working")
+
+Rayfield:LoadConfiguration()
