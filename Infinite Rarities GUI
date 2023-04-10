@@ -409,7 +409,7 @@ local Window = Rayfield:CreateWindow({
    local Button = Tab3:CreateButton({
     Name = "Name Hider",
     Callback = function()
-        local new_name = "ShadowHub" -- I'm not Pepsi. ^_^
+        local new_name = "ShadowHubonTop" -- I'm not Pepsi. ^_^
         local new_id = 104867 -- I'm not 26346. ^_^
         local clear_avatar = false -- So no one can reverse search by your outfit
         local flush_body_colors = false -- So no one can reverse search by your bodycolors
@@ -682,7 +682,7 @@ local Window = Rayfield:CreateWindow({
     Callback = function()
         print("Name Hidden")
         print("Avatar Hidden")
-        local new_name = "ShadowHub" -- I'm not Pepsi. ^_^
+        local new_name = "ShadowHubonTop" -- I'm not Pepsi. ^_^
         local new_id = 104867 -- I'm not 26346. ^_^
         local clear_avatar = true -- So no one can reverse search by your outfit
         local flush_body_colors = false -- So no one can reverse search by your bodycolors
