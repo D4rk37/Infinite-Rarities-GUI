@@ -1,3 +1,11 @@
+--THEY DO NOT WORK TOGETHER IT WILL JUST SPAM TELEPORT AND IT WILL BUG
+
+getgenv().SPFarmFast = false
+getgenv().SpFarmSlow = false
+getgenv().PPFarm = false
+getgenv().APFarm = false
+getgenv().OPPPFarm = false
+
 --SPFarmFast
 spawn(function()
     while SPFarmFast do task.wait() 
@@ -100,11 +108,11 @@ local Window = Rayfield:CreateWindow({
     KeySettings = {
        Title = "Infinite Rarities GUI",
        Subtitle = "D4rk#0001 | janis#6697",
-       Note = "key: kys",
+       Note = "key: ShadowHubonTop",
        FileName = "IFK",
        SaveKey = true,
        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-       Key = "kys"
+       Key = "ShadowHubonTop"
     }
  })
 
@@ -116,12 +124,30 @@ local Window = Rayfield:CreateWindow({
    local Section = Tab3:CreateSection("D4rk#0001 | janis#6697")
 
    local Toggle = Tab:CreateToggle({
-    Name = "Sacrifice Farm Fast",
+    Name = "Sacrifice Farm Slow",
     CurrentValue = false,
     Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
     Callback = function(Value)
-    -- The function that takes place when the toggle is pressed
-    -- The variable (Value) is a boolean on whether the toggle is true or false
+        getgenv().SPFarmFast = Value
+        while getgenv().SPFarmFast == true do
+                    spawn(function()
+                        while SPFarmFast do task.wait()
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.38418579e-07, -0.125, 40, 1, 0, 0, 0, 1, 0, 0, 0, 1) --roll
+                        wait(3)
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 39.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --sacrifice
+                        wait(0.5)
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 27.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --luck
+                        wait(0.3)
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 19.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --roll speed
+                        wait(0.3)
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 11.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --bulk roll
+                        wait(0.3)
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.5, -0.125, 3.5, 1, 0, 0, 0, 1, 0, 0, 0, 1) --SPM
+                        wait(0.3)
+                        end
+                    end)
+        task.wait()
+        end
     end,
  })
 
@@ -941,6 +967,144 @@ local Window = Rayfield:CreateWindow({
         end
     end,
  })
+
+local Section = Tab3:CreateSection("Funny")
+
+local Button = Tab3:CreateButton({
+   Name = "Rickroll the Server",
+   Callback = function()
+    local function say(text)
+	getgenv().Text = text
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(getgenv().Text,"All")
+end
+    say("We're no strangers to Iove")
+      wait(3)
+    say("You know the rules and so do I.")
+      wait(3)
+    say("A full commitment’s what I’m thinking of,")
+      wait(3)
+    say("You wouldnt get this from any other guy.")
+      wait(3)
+    say("I just wanna tell you how I’m feeling,")
+      wait(3)
+    say("Gotta make you understand…")
+      wait(3)
+    say("Never gonna give you up,")
+      wait(3)
+    say("Never gonna let you down,")
+      wait(3)
+    say("Never gonna run around and desert you.")
+      wait(3)
+    say("Never gonna make you cry,")
+      wait(3)
+    say("Never gonna say goodbye,")
+      wait(3)
+    say("Never gonna tell a lie and hur✝ you.")
+      wait(3)
+    say("We’ve known each other for so long")
+      wait(3)
+    say("Your heart’s been aching")
+      wait(3)
+    say("But you’re too shy to say it.")
+      wait(3)
+    say("Inside we both know what’s been going on,")
+      wait(3)
+    say("We know the game and we’re gonna play it.")
+      wait(3)
+    say("Annnnnd if you ask me how I’m feeling,")
+      wait(3)
+    say("Don’t tell me you’re too blind to see…")
+      wait(3)
+    say("Never gonna give you up,")
+      wait(3)
+    say("Never gonna let you down,")
+      wait(3)
+    say("Never gonna run around and desert you.")
+      wait(3)
+    say("Never gonna make you cry,")
+      wait(3)
+    say("Never gonna say goodbye,")
+      wait(3)
+    say("Never gonna tell a lie and hur✝ you.")
+      wait(3)
+    say("Never gonna give you up,")
+      wait(3)
+    say("Never gonna let you down,")
+      wait(3)
+    say("Never gonna run around and desert you.")
+      wait(3)
+    say("Never gonna make you cry,")
+      wait(3)
+    say("Never gonna say goodbye,")
+      wait(3)
+    say("Never gonna tell a lie and hur✝ you.")
+      wait(3)
+    say("Give you up. give you up.")
+      wait(3)
+    say("Give you up, give you up.")
+      wait(3)
+    say("Never gonna give")
+      wait(3)
+    say("Never gonna give, give you up.")
+      wait(3)
+    say("Never gonna give")
+      wait(3)
+    say("Never gonna give, give you up.")
+      wait(3)
+    say("We’ve known each other for so long")
+      wait(3)
+    say("Your heart’s been aching")
+      wait(3)
+    say("But you’re too shy to say it.")
+      wait(3)
+    say("Inside we both know what’s been going on,")
+      wait(3)
+    say("We know the game and we’re gonna play it.")
+      wait(3)
+    say("I just wanna tell you how I’m feeling,")
+      wait(3)
+    say("Gotta make you understand…")
+      wait(3)
+    say("Never gonna give you up,")
+      wait(3)
+    say("Never gonna let you down,")
+      wait(3)
+    say("Never gonna run around and desert you.")
+      wait(3)
+    say("Never gonna make you cry,")
+      wait(3)
+    say("Never gonna say goodbye,")
+      wait(3)
+    say("Never gonna tell a lie and hur✝ you.")
+      wait(3)
+    say("Never gonna give you up,")
+      wait(3)
+    say("Never gonna let you down,")
+      wait(3)
+    say("Never gonna run around and desert you.")
+      wait(3)
+    say("Never gonna make you cry,")
+      wait(3)
+    say("Never gonna say goodbye,")
+      wait(3)
+    say("Never gonna tell a lie and hur✝ you.")
+      wait(3)
+    say("Never gonna give you up,")
+      wait(3)
+    say("Never gonna let you down,")
+      wait(3)
+    say("Never gonna run around and desert you.")
+      wait(2.5)
+    say("Never gonna make you cry,")
+      wait(3)
+    say("Never gonna say goodbye,")
+      wait(3.5)
+    say("Never gonna tell a lie and hur✝ you.")
+      wait(3)
+    say("GET RICKROLLED LOLLL")
+    wait(2)
+   end,
+})
 
  local Section = Tab3:CreateSection("DELETE GUI (DOES NOT TURN IT OFF FOR YOU)")
 
