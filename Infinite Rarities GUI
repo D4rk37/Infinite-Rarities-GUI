@@ -97,7 +97,7 @@ local Window = Rayfield:CreateWindow({
     ConfigurationSaving = {
        Enabled = true,
        FolderName = ShadowHub, -- Create a custom folder for your hub/game
-       FileName = "Infinite Rarities Config"
+       FileName = "InfiniteRaritiesConfig"
     },
     Discord = {
        Enabled = true,
