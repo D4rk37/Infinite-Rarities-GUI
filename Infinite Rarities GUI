@@ -96,13 +96,13 @@ local Window = Rayfield:CreateWindow({
     LoadingSubtitle = "D4rk#0001 | janis#6697",
     ConfigurationSaving = {
        Enabled = true,
-       FolderName = ShadowHub, -- Create a custom folder for your hub/game
-       FileName = "Infinite Rarities Config"
+       FolderName = InfRarities, -- Create a custom folder for your hub/game
+       FileName = "Cfg"
     },
     Discord = {
-       Enabled = false,
-       Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
-       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+       Enabled = true,
+       Invite = "pp4FUR2Pmj", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
     },
     KeySystem = true, -- Set this to true to use our key system
     KeySettings = {
